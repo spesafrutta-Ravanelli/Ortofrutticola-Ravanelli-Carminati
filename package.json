@@ -1,0 +1,38 @@
+{
+  "name": "ortofrutticola-online",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.8"
+  }
+}
+```
+
+**Salva il file.**
+
+---
+
+## 📄 **FILE 2: .env.local**
+
+Nella cartella **principale**, crea un file chiamato **`.env.local`** (nota il punto all'inizio!)
+
+Incolla questo (con le TUE credenziali):
+```
+VITE_SUPABASE_URL=https://kiubgnxahhvovuicuvsl.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtpdWJnbnhhaGh2b3Z1aWN1dnNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAzOTk0MzEsImV4cCI6MjA4NTk3NTQzMX0.8WK5pxVjD6KVPqafK9zYs0MCgeQC_ZRKmFMkGAjLk9U
